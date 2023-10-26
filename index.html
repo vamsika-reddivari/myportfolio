@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA_Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+</style>
+</head>
+<body>
+<div class="header">
+ <div class="container">
+	<div class="navbar">
+		<div class="logo">
+			<h1>Vamsika's Portfolio</p>
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#skills">SKILLS</a></li>
+				<li><a href="#projects">PROJECTS</a></li>
+				<li><a href="#work">WORK</a></li>
+				<li><a href="#contactme">CONTACT</a></li>
+			</ul>
+			
+		</nav>
+          <a href="#" class="nav-toggle" onclick="menutoggle()"><i class="fa-solid fa-bars"></i></a>
+
+    </div>
+    <div class="row">
+    	<div class="col-1">
+    		<p>Hello,my name is</p>
+    		<h1 class="name">REDDIVARI VAMSIKA</h1>
+    		<p>I'm a passionate Front-End Developer</p>
+    		<div class="resume"><a href="https://docs.google.com/document/d/1sFLUnloOCivNLYgR3sltr7XSy_-Laig5qgrOBGHw28k/edit?usp=drivesdk">RESUME</a></div>
+    		<div class="links"><a href="https://www.linkedin.com/in/reddivari-vamsika-b5b047281"><i class="fa-brands fa-linkedin"></i></a>
+    		<a href="https://instagram.com/vamsika.reddivari?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></a>
+    		</div>
+    	</div>
+    	<div class="col-1">
+    		<img src="Images/vamsika.jpg" width="300">
+
+    	</div>
+    </div>
+   </div>
+  </div>
+ <div class="container">
+  <div class="smallcontainer" id="skills">
+  	<h1>MY SKILLS</h1>
+ 	<div class="skill">
+ 	   <div class="skill-name">HTML</div>
+ 	   <div class="skill-bar">
+ 		   <div class="skill-level" style="width:80%;">80%</div>
+ 		</div>
+   	</div>
+    <div class="skill">
+ 		<div class="skill-name">CSS</div>
+ 		<div class="skill-bar">
+ 			<div class="skill-level" style="width:70%;">70%</div>
+ 		</div>
+   	</div>
+   	<div class="skill">
+ 		<div class="skill-name">JS</div>
+ 		<div class="skill-bar">
+ 			<div class="skill-level" style="width:40%;">40%</div>
+ 		</div>
+   	</div>
+   	<div class="skill">
+ 		<div class="skill-name">JAVA</div>
+ 		<div class="skill-bar">
+ 			<div class="skill-level" style="width:75%;">75%</div>
+ 		</div>
+   	</div>
+   	<div class="skill">
+ 		<div class="skill-name">C</div>
+ 		<div class="skill-bar">
+ 			<div class="skill-level" style="width:70%;">70%</div>
+ 		</div>
+   	</div>
+   	<div class="skill">
+ 		<div class="skill-name">MYSQL</div>
+ 		<div class="skill-bar">
+ 			<div class="skill-level" style="width:60%;">60%</div>
+ 		</div>
+   	</div>
+ </div> 
+</div> 
+
+
+<div class="projects" id="projects">
+	<div class="container">
+		<h1>PROJECTS</h1>
+		<div class="row1">
+			<div class="col-2">
+				<img src="https://ethicsinfotech.in/uploads/slider/e-commerce-website.png"width="100" height="100">
+				<h2>Ecommerce Website</h2>
+				<p>(Using HTML&CSS)</p>
+				<div class="btn"><a href=" https://vamsika-reddivari.github.io/redstore/">E-com</a></div>
+			</div>
+			<div class="col-2">
+				<img src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png"width="100" height="100">
+				<h2>Netflix-Clone</h2>
+				<p>(Using HTML&CSS)</p>
+				<div class="btn"><a href="">Netfilx</a></div>
+			</div>
+			<div class="col-2">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFMAGk4aNuDOfqKDhqqYFse6ig9THBJLP7VQ&usqp=CAU" width="100" height="100">
+				<h2>Portfolio-Gallery</h2>
+				<p>(Using HTML&CSS)</p>
+				<div class="btn"><a href=" https://vamsika-reddivari.github.io/portfolio-gallery/">Gallery</a></div>
+			</div>
+		</div>
+			
+</div>
+</div>
+
+<div class="work" id="work">
+	<div class="container">
+		<h1>INTERNSHIP</h1>
+		<div class="row">
+		
+		<p>I enchanced my front-end skills by working as a web developer intern under Bharat Intern.Thanks to Bharat Intern.</p>
+		<img src="Images/intern.jpeg" width="100" height="100">
+		
+	</div>
+	</div>
+</div>
+
+<div class="contact" id="contactme">
+  <div class="container">
+	<h1>CONTACT INFO</h1><hr>
+	<p>Email:<a href="mailto:reddivarivamsika@gmail.com">reddivarivamsika@gmail.com</p></a>
+	<p>Phone:<a href="tel:8125345155">+91 8125345155</p></a>
+	<p>Address : Tirupati disct, AndhraPradhesh</p>
+  </div>
+</div>
+
+ <script>
+     var MenuItems = document.getElementById("MenuItems");
+     MenuItems.style.maxHeight = "0px";
+     function menutoggle(){
+     	
+            if (MenuItems.style.maxHeight =="0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px" 
+            }
+     }
+     
+    </script>>
+
+
+
+    
+
+<script src="https://kit.fontawesome.com/3ce8a3d5ae.js" crossorigin="anonymous"></script>
+	
+</body>
+</html>
