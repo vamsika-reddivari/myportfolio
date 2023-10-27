@@ -17,8 +17,8 @@
 		<div class="logo">
 			<h1>Vamsika's Portfolio</p>
 		</div>
-		<nav>
-			<ul id="MenuItems">
+		<nav id="MenuItems">
+			<ul >
 				<li><a href="#">HOME</a></li>
 				<li><a href="#skills">SKILLS</a></li>
 				<li><a href="#projects">PROJECTS</a></li>
@@ -27,12 +27,15 @@
 			</ul>
 			
 		</nav>
-          <a href="#" class="nav-toggle" onclick="menutoggle()"><i class="fa-solid fa-bars"></i></a>
+			<div class="nav-toggle">
+				<a href="#"  ><i class="fa-solid fa-bars" onclick="menutoggle()"></i></a>
+			</div>
+         
 
     </div>
     <div class="row">
     	<div class="col-1">
-    		<p>Hello,my name is</p>
+    		<p>Hello,My Name is</p>
     		<h1 class="name">REDDIVARI VAMSIKA</h1>
     		<p>I'm a passionate Front-End Developer</p>
     		<div class="resume"><a href="https://drive.google.com/file/d/10xul4_ZGCRHMgh3ffEzdIsdQoJtl6xUn/view?usp=drivesdk">RESUME</a></div>
@@ -137,23 +140,8 @@
 	<p>Address : Tirupati disct, AndhraPradhesh</p>
   </div>
 </div>
-
- <script>
-     var MenuItems = document.getElementById("MenuItems");
-     MenuItems.style.maxHeight = "0px";
-     function menutoggle(){
-     	
-            if (MenuItems.style.maxHeight =="0px")
-            {
-                MenuItems.style.maxHeight = "200px"
-            }
-            else
-            {
-                MenuItems.style.maxHeight = "0px" 
-            }
-     }
-     
-    </script>>
+<script src="script.js"></script>
+ 
 
 
 
