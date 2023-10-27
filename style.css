@@ -37,6 +37,12 @@ ul{
 	list-style: none;
 	display: flex;
 	gap: 30px;
+	font-weight: 400;
+}
+.intro{
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 10px;
 }
 
 a{
@@ -55,8 +61,13 @@ a{
 
 	padding:10px;
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 20px;
 	color: black;
+	font-weight: 600;
+}
+.resume a:hover{
+	background: #555;
+	color: #fff;
 }
 
 .resume{
@@ -128,13 +139,14 @@ a{
 
 
 .btn{
-	padding-inline: auto;
-	padding-block: 10px;
+	padding: 8px 60px;
 	background-color: #B22222;
 	border-radius: 20px;
-	margin-top: 10px;
+	
 }
-
+.col-2 p{
+	margin-bottom: 10px;
+}
 .btn:hover{
 	background-color:#563434 ;
 }
@@ -161,6 +173,9 @@ a{
 	margin-block: 40px;
 	text-align: center;
 
+}
+.work p{
+	font-weight: 550;
 }
 
 .contact h1{
