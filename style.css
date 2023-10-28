@@ -43,6 +43,12 @@ a{
 	text-decoration: none;
 	color:#fff;
 }
+
+.intro{
+	font-weight: 600;
+	line-height: 20px;
+	margin-top: 10px;
+}
 .row{
 	display: flex;
 	align-items: center;
@@ -55,8 +61,13 @@ a{
 
 	padding:10px;
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 20px;
 	color: black;
+	font-weight: 600;
+}
+.resume a:hover{
+	background: #555;
+	color: #fff;
 }
 
 .resume{
@@ -65,6 +76,7 @@ a{
 .col-1 img{
 	max-width: 100%;
 	border-radius: 50%;
+
 
 }
 .name{
@@ -128,15 +140,16 @@ a{
 
 
 .btn{
-	padding-inline: auto;
-	padding-block: 10px;
+	padding: 10px 60px;
 	background-color: #B22222;
-	border-radius: 20px;
-	margin-top: 10px;
+	border-radius: 20px;	
 }
 
 .btn:hover{
 	background-color:#563434 ;
+}
+.col-2 p{
+	margin-bottom: 10px;
 }
 
 .contact a{
@@ -161,6 +174,9 @@ a{
 	margin-block: 40px;
 	text-align: center;
 
+}
+.work p{
+	font-weight: 550;
 }
 
 .contact h1{
